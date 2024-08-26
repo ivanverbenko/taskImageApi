@@ -1,0 +1,11 @@
+DATABASE_NAME=your_db_name
+DATABASE_USER=your_db_user
+DATABASE_PASSWORD=your_db_password
+DATABASE_HOST=db
+DATABASE_PORT=5432
+FACE_CLOUD_API_URL=https://backend.facecloud.tevian.ru
+FACE_CLOUD_EMAIL=your email
+FACE_CLOUD_PASSWORD=your pass
+
+BASIC_AUTH_USERNAME=user
+BASIC_AUTH_PASSWORD=pass

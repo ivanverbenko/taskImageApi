@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "teviaddjango"
+version = "0.1.0"
+description = ""
+authors = ["'eerrbis@gmail.com' <trimurs@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+django = "^5.1"
+djangorestframework = "^3.15.2"
+pillow = "^10.4.0"
+drf-yasg = "^1.21.7"
+setuptools = "^72.2.0"
+requests = "^2.32.3"
+django-debug-toolbar = "^4.4.6"
+django-extensions = "^3.2.3"
+psycopg2-binary = "^2.9.9"
+django-environ = "^0.11.2"
+
+
+[tool.poetry.group.dev.dependencies]
+black = "^24.8.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
